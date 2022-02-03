@@ -36,6 +36,12 @@ public class GameStart : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
+
+    public void GoToS4()
+    {
+        SceneManager.LoadScene("S4");
+    }
+
     public void ClosePnl()
     {
         pnl_menu.SetActive(false);
